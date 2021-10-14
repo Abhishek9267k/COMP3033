@@ -1,5 +1,5 @@
-var express = require('express');
-var router = express.Router();
+var express = require('express');                                          // calling express function
+var router = express.Router();                                            // handling all the routings
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
